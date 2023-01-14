@@ -5,7 +5,7 @@ import requests
 from os import getenv
 
 
-def get_dashboard_json(dashboard, overwrite=False, message="Updated by grafanlib"):
+def get_dashboard_json(dashboard, overwrite=False, message="Updated by grafanalib"):
     '''
     get_dashboard_json generates JSON from grafanalib Dashboard object
 
